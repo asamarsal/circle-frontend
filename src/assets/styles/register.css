@@ -1,0 +1,16 @@
+.register-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+.register-container {
+  user-select: none;
+}
+
+.register-text {
+  font-family: 'plusjakarta', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

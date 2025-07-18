@@ -1,0 +1,9 @@
+
+.register-container {
+  user-select: none;
+}
+
+.forgotpassword-text {
+  font-family: 'plusjakarta', sans-serif;
+  color: white;
+}

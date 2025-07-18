@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { RouterProvider } from "react-router-dom";
+import "./assets/styles/App.css";
+import { AuthProvider } from "./contexts/auth.tsx";
+import router from "./routes";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <h1>Circle Social Media</h1>
-    </>
-  )
+	return (
+		<AuthProvider>
+			<RouterProvider router={router}/>
+		</AuthProvider>
+		
+	);
 }
 
-export default App
+export default App;

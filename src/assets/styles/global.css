@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'plusjakarta';
+  src: url('../assets/fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 412px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.container-black {
+  background-color: #242424
+}
+
+.decoration-button {
+  height: 44px;
+  width: 412px;
+  background-color: #04A51E;
+  border-radius: 50px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.decoration-text {
+  color: white;
+  font-family: 'plusjakarta', sans-serif;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.text-heading {
+  font-family: 'plusjakarta', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  width: 100%;
+}
+
+.icon-heading{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input-field {
+    height: 48px;
+    width: 412px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+
+:root {  
+  background-color: #242424;
+}
+
+.tabs-trigger[data-state="active"] {
+  border-bottom: 2px solid #04A51E !important;
+  color: white !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  font-weight: bold !important;
+}
+
+.tabs-trigger {
+  border-bottom: 4px solid transparent;
+  border-radius: 0;
+}
